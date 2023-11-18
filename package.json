@@ -1,0 +1,21 @@
+{
+  "name": "electron-todo-app",
+  "version": "0.0.1",
+  "description": "this is an app created during learning process of electron",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "dev:watch": "npx electronmon --trace-warnings ."
+  },
+  "keywords": [
+    "electron",
+    "reactjs",
+    "typescript"
+  ],
+  "author": "SKBKT",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^27.1.0"
+  }
+}
